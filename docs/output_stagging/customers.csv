@@ -1,0 +1,101 @@
+customer_id,name,location_name,segment_name,phone_number,email
+1,Jose Cruz,Puebla,Pequeño,+528152394670,gZybuAFCKx@wczkmr.com
+2,Juan Garcia,Merida,Pequeño,+521897630254,kcRPLQICXf@vnfmpe.com
+3,Manuel Garcia,Queretaro,Grande,+525127038469,hFKVqogQrl@heutaq.com
+4,Pedro Gonzalez,Cancun,Mediano,+525180264973,aVGKbmBJvS@ktjuyv.com
+5,Jorge Ramirez,Morelia,Mediano,+524810325769,syfUhZpkQL@gncurt.com
+6,Carlos Gonzalez,Puebla,Pequeño,+523810756294,IuOxzTrlmZ@wdblni.com
+7,Alejandro Rodriguez,Leon,Grande,+528615420739,ZrQJRswGzE@lvytfo.com
+8,Juan Rodriguez,Cancun,Mediano,+527269840513,usgipQHreW@jncesx.com
+9,Juan Hernandez,Morelia,Mediano,+529126547803,obXdqRAfni@ametfc.com
+10,Luis Lopez,Morelia,Mediano,+523056721498,hMJSnDiZVb@gunieh.com
+11,Carlos Hernandez,Merida,Mediano,+526078941325,cPhdaxSDXl@qyjslo.com
+12,Fernando Garcia,Morelia,Pequeño,+523892546710,BWUlduZVoF@draywj.com
+13,Alejandro Cruz,Leon,Mediano,+527935840621,rlUQSEisAb@odaktx.com
+14,Fernando Cruz,Puebla,Mediano,+527219840356,vEkSiMnJYG@sanrtv.com
+15,Jose Lopez,Leon,Mediano,+524598016327,NclpjieRaF@ynwhkz.com
+16,Jose Garcia,Puebla,Grande,+523760829145,ZgjVwHdyDT@kbagri.com
+17,Jose Hernandez,Tijuana,Mediano,+527049268531,RBlyVPnqTz@iszftn.com
+18,Luis Gonzalez,Cancun,Mediano,+526945718230,pGLeNxVWDo@adbtlf.com
+19,Miguel Hernandez,Tijuana,Mediano,+522793140586,lbQruVaNzY@plongm.com
+20,Miguel Ramirez,Tijuana,Pequeño,+521728690354,VuxIZFCwQX@ornike.com
+21,Miguel Martinez,Tijuana,Grande,+527201368549,mrkaOLlDAj@tysgix.com
+22,Jose Ramirez,Morelia,Mediano,+522489753106,oxesiVJuZl@qsuylo.com
+23,Miguel Gonzalez,Cancun,Pequeño,+520493728561,TtViYSmfrc@cimnth.com
+24,Manuel Ramirez,Morelia,Pequeño,+521597430268,ZPcRuHYGtU@zdsmol.com
+25,Fernando Sanchez,Ciudad de Mexico,Pequeño,+524165897203,oXZSlmBqfY@dakwbl.com
+26,Jose Martinez,Morelia,Grande,+525394187620,ywOIdmzXpn@tkahsu.com
+27,Miguel Cruz,Guadalajara,Grande,+526390728451,sFODSPrQxE@zxdlip.com
+28,Miguel Garcia,Queretaro,Mediano,+528925047613,MOEvNVmZxd@xfgpwv.com
+29,Pedro Perez,Tijuana,Pequeño,+523271409658,VGRmPbvXQw@somiwj.com
+30,Juan Sanchez,Puebla,Pequeño,+523469725801,NIArcunMSz@tnyirf.com
+31,Luis Perez,Queretaro,Pequeño,+522639145870,VfjqWposLt@harpiq.com
+32,Pedro Martinez,Merida,Pequeño,+520345691872,esBgEOjFPI@acztef.com
+33,Carlos Rodriguez,Morelia,Mediano,+524362817059,WQZGuOktfX@gvdxzp.com
+34,Fernando Gonzalez,Ciudad de Mexico,Grande,+528317092546,ymhPSDBEYa@hztdsc.com
+35,Miguel Perez,Leon,Mediano,+522617943805,gKhVvtCLjl@vhoqlr.com
+36,Miguel Lopez,Leon,Pequeño,+527460325981,JDtOHjgEbK@aoqedi.com
+37,Juan Martinez,Monterrey,Pequeño,+522675309184,HDPvIlasMg@tkxbze.com
+38,Jose Rodriguez,Leon,Pequeño,+528356104792,GKOiyJumCZ@xuhoib.com
+39,Jorge Perez,Leon,Mediano,+528062479315,hUcAmLgJFz@fgqcev.com
+40,Luis Sanchez,Morelia,Grande,+524309628571,VifEqPSsrz@ganhxw.com
+41,Alejandro Ramirez,Monterrey,Grande,+528495673210,iPvQqeroCO@vtbgjy.com
+42,Manuel Cruz,Morelia,Pequeño,+524981057623,EfqRanSZwI@ivkzyw.com
+43,Juan Cruz,Ciudad de Mexico,Pequeño,+525640829137,PUNcXVqzSf@oaikbe.com
+44,Pedro Cruz,Guadalajara,Mediano,+527904185263,xiBSFVINeP@lkzvnp.com
+45,Carlos Lopez,Leon,Pequeño,+522304617589,XvdMYzemBG@tkbcjm.com
+46,Fernando Rodriguez,Guadalajara,Pequeño,+522463051879,FgSdwrvLTb@tzhlom.com
+47,Alejandro Gonzalez,Merida,Pequeño,+522097536148,efjLFdzHVb@isqnzj.com
+48,Alejandro Martinez,Leon,Grande,+529582406173,JpGtBbhona@gihljq.com
+49,Juan Gonzalez,Tijuana,Pequeño,+524105893726,DCioEPSXjK@ndvfgk.com
+50,Carlos Garcia,Merida,Pequeño,+520615792438,fWHxmnibzl@sheuvt.com
+51,Manuel Martinez,Tijuana,Grande,+526084952317,KHaDVtwTzb@kirecv.com
+52,Pedro Sanchez,Merida,Mediano,+523675241098,BNtjkDgMzK@syulcd.com
+53,Jorge Garcia,Tijuana,Pequeño,+529504861327,HARDPIqnae@nzeshl.com
+54,Fernando Ramirez,Queretaro,Grande,+524389215076,nXYtbzNEyJ@bphqda.com
+55,Jorge Sanchez,Leon,Mediano,+525297318640,QDVjIHTizK@fbkinm.com
+56,Alejandro Garcia,Tijuana,Pequeño,+528043521796,wQkhnybKVW@poswfa.com
+57,Jorge Gonzalez,Monterrey,Pequeño,+524256971038,IXRjBsyfxE@biwrqh.com
+58,Manuel Gonzalez,Leon,Pequeño,+521362780954,DZmAdhWBQK@hnwovf.com
+59,Fernando Martinez,Puebla,Grande,+525093214687,mWVNeYjhdQ@dpsxnf.com
+60,Carlos Ramirez,Tijuana,Mediano,+522138056749,RIJfTxChcj@nhtbvg.com
+61,Pedro Garcia,Guadalajara,Pequeño,+526291804735,rlhmPVbJof@feksgl.com
+62,Luis Hernandez,Merida,Pequeño,+520492185376,TtvwWzeKFZ@dzhbav.com
+63,Juan Perez,Cancun,Mediano,+522680541739,dohieQNtFv@hteunp.com
+64,Luis Ramirez,Puebla,Mediano,+529473051862,EUMSAjYpvB@shzmpq.com
+65,Alejandro Hernandez,Guadalajara,Pequeño,+525794268130,qJRgUpXhQu@uskyaw.com
+66,Juan Ramirez,Ciudad de Mexico,Mediano,+523780164925,IOUQkEbsVT@wdvhab.com
+67,Pedro Rodriguez,Morelia,Grande,+527504869312,TrMEAyOoJu@mipvda.com
+68,Manuel Perez,Guadalajara,Mediano,+523201486975,ODBuJNUcTs@wjsqeu.com
+69,Fernando Hernandez,Ciudad de Mexico,Mediano,+527361890254,FvAwOIZasc@zdenyv.com
+70,Jose Gonzalez,Cancun,Grande,+526974801523,OwTZvPsXRi@vxbzaq.com
+71,Pedro Ramirez,Monterrey,Grande,+528364217590,eOcDKoTyLR@enzvro.com
+72,Miguel Rodriguez,Merida,Mediano,+523086275914,DUhkAwoFgp@spaniz.com
+73,Jose Sanchez,Merida,Mediano,+522194657803,zFhVDvHylX@hxisng.com
+74,Manuel Hernandez,Cancun,Grande,+529035617824,LYDyFIKJUw@dbreap.com
+75,Pedro Hernandez,Morelia,Mediano,+526105249738,vxFmYTdrpR@teugiz.com
+76,Jorge Hernandez,Merida,Grande,+522108954763,DFpjOZuIJd@jfvarm.com
+77,Jose Perez,Guadalajara,Pequeño,+528465201397,HcxgVjfLIC@igqlfu.com
+78,Jorge Lopez,Ciudad de Mexico,Mediano,+524690217835,XhyRItNjeZ@rbxiqk.com
+79,Jorge Rodriguez,Puebla,Grande,+521762830549,MYAaZzRSIy@iyblrg.com
+80,Luis Cruz,Morelia,Pequeño,+526214879350,bmeCLQYnJx@gfbtls.com
+81,Miguel Sanchez,Puebla,Mediano,+528459613720,FZjLMtYJSX@wizjkn.com
+82,Juan Lopez,Ciudad de Mexico,Mediano,+520524378916,ZiOupcfhor@wzuonf.com
+83,Carlos Perez,Monterrey,Mediano,+525308219467,bjROCHnGAL@jcgamu.com
+84,Luis Rodriguez,Puebla,Grande,+525941873620,cpZzxaLoIn@yukbvi.com
+85,Luis Garcia,Morelia,Grande,+520935247618,DyRlVrbPqc@walqom.com
+86,Alejandro Lopez,Merida,Pequeño,+520125479836,QrYKIyVwWZ@jscqup.com
+87,Alejandro Sanchez,Guadalajara,Mediano,+522648930571,WHFnQLVZgm@qwvupb.com
+88,Luis Martinez,Guadalajara,Grande,+525940862137,AmlsyRaPVO@eqaodg.com
+89,Carlos Cruz,Puebla,Grande,+524071928356,tweiSMIsAW@bpiokr.com
+90,Alejandro Perez,Ciudad de Mexico,Mediano,+526915723840,hyjBnpFIEb@djngte.com
+91,Jorge Martinez,Cancun,Pequeño,+528437506192,JDEOiSugMy@ycljgw.com
+92,Manuel Rodriguez,Monterrey,Grande,+529842357160,MmYPzrHqRo@zbtoae.com
+93,Manuel Lopez,Cancun,Pequeño,+528976152304,zwrMTqNuGh@rtkpne.com
+94,Carlos Martinez,Merida,Pequeño,+523417965028,inoEvQDXwz@mrnbpd.com
+95,Fernando Lopez,Puebla,Mediano,+521478952063,ATiUWdNaZC@flscvh.com
+96,Fernando Perez,Queretaro,Mediano,+521384095672,gJySBGZIlj@pvcwgi.com
+97,Carlos Sanchez,Merida,Mediano,+526943587120,WoXaBptMPK@olzdgs.com
+98,Jorge Cruz,Puebla,Pequeño,+526153847029,fGNVSsjIZQ@tbeaix.com
+99,Pedro Lopez,Merida,Pequeño,+525831764290,mZPUVKpwsh@tdywon.com
+100,Manuel Sanchez,Queretaro,Mediano,+523950864217,mAOhZEouMG@epwbzj.com

@@ -1,0 +1,104 @@
+
+
+resumen:
+Innova: 
+ - empresa de retail mexicana.
+ - transacciones diarias.
+ - busca expandir capacidades analíticas, obtener mayor insight
+
+
+--------------------------------------------
+
+data:
+
+CUSTOMERS: (id, nombre, ubicacion, segmento)
+PRODUCTS: (id, nombre, categoria, precio)
+ - 
+INVOICES: (id, fecha, clienteID, productoID, cantidad, total)
+ - añadir: (tipo_pago, estado_pago, 
+    estado_invoice(
+        None.
+        Draft.
+        Deleted.
+        Sent.
+        Disputed.
+        Cancelled.
+        Paid.
+        Past
+        Due.
+    )
+    , descuentos
+    , observacion
+        transaction_id (unique to the specific transaction, for modifying purposes)
+)
+
+
+PROCESO DE NEGOCIO: compras evidenciadas en facturas.
+
+ - producto mas vendido por trimeste por año
+ - tendencia de compras de clientes más leales
+ - variación de ventas según regiones geográficas durante el año
+
+---------- DIMENSIONES:
+dim_customers:
+
+id: clave surrogada
+id -> customer_id: clave original del archivo input
+Nombre -> name: nombre del cliente, normalizado sin carácteres extraños.
+Ubicación -> location ARR: ubicación del cliente, array con info temporal, en caso de cambio en tiempo.
+    - location.id: autogenerado incremental, integer.
+    - location.modified_date: datetime asignado a la fecha de ingesta de la data.
+    - location.name: nombre de la ubicación.
+Segmento -> segment: segmento al que pertenece el cliente.
+
+
+dim_products:
+
+id: clave surrogada,
+ID -> product_id: clave original del archivo input.
+nombre -> name: nombre del producto, normalizado.
+categoría -> category: string de la categoria del producto.
+precio -> price_mxn: definir tipo de moneda del precio, asumir MXN debido al mercado.
+
+
+fact_invoices:
+
+id: clave surrogada.
+ID -> invoice_id: id del registro proveniente del archivo.
+fecha -> invoice_date: fecha relacionada al archivo input, no trae mayor información, aclarar con cliente.
+clienteID -> customer_id: id relacionado al cliente.
+detail:
+    - productoID -> product_id: id relacionado al producto.
+    - cantidad -> quantity: cantidad de productos vendidos.
+    - total -> total_price: total del precio por producto, momentaneamente tomando el mismo valor de la factura original.
+total -> total_invoice: valor total de la transacción.
+currency_type : tipo de moneda, MXN de default hasta consultar con Cliente.
+payment_type: método de pago utilizado para realizar la compra.
+state: ARR estado de la factura, con fecha de modificación asociada.
+    - id: id incremental del estado de la factura.
+    - modified_date: DATETIME asociado a la modificación del registro.
+    -  description: descripción del estado de la factura. (
+        None.
+        Draft.
+        Deleted.
+        Sent.
+        Disputed.
+        Cancelled.
+        Paid.
+        Past
+        Due.
+)
+discounts ARR: array de descuentos, si es que los hay.
+    - id: integer  incremental en cada uno de ellos.
+    - value: valor del descuento
+    - currency_type:  Moneda del descuento, por defecto MXN
+
+transaction_id: id sugerido con información dentro del mismo id.
+
+
+
+
+ Stagging
+ - Carga de datos AS IS
+ - estandarización de valores
+ - data particionada por fecha de ingesta
