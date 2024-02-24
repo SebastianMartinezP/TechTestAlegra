@@ -3,6 +3,7 @@ Technical test for Data Engineer position at Alegra.
 
 ## ENTREGABLES
 ### Documento de diseño del modelo relacional
+El documento se encuentra en formato PDF dentro de la raíz de este repositorio. Si se prefiere se puede visitar el mismo documento en su formato Online:
 [Documentación de diseño del Modelo Dimensional](https://docs.google.com/document/d/1xN2t9K9dk5b721JqX1mwrwtG0MGDUqq2D4DK0ZH4rYI/edit?usp=sharing).
  
 ### Scripts Funcionales ETL:
