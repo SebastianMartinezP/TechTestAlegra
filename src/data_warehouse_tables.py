@@ -365,42 +365,42 @@ class Invoice(core.ETL):
 
 if __name__ == "__main__":
 
-    # customers:Customer  = Customer(
-    #     input_csv_path  = "docs/output_stagging/customers.csv",
-    #     output_csv_path = "docs/output_data_warehouse/customers_dim.csv",
-    #     starting_id     = 0 # last id from the database.
-    # )
-    # customers.extract()
-    # customers.transform()
-    # customers.load()
-    # 
-    # products:Product  = Product(
-    #     input_csv_path  = "docs/output_stagging/products.csv",
-    #     output_csv_path = "docs/output_data_warehouse/products_dim.csv",
-    #     starting_id     = 0 # last id from the database.
-    # )
-    # products.extract()
-    # products.transform()
-    # products.load()
-# 
-    # # getting the time dimension data from the invoices date
-    # time:Time = Time(
-    #     input_csv_path  = "docs/output_stagging/invoices.csv",
-    #     output_csv_path = "docs/output_data_warehouse/time_dim.csv",
-    #     starting_id     = 0 # last id from the database.
-    # )
-    # time.extract()
-    # time.transform()
-    # time.load()
-# 
-    # payment_method:PaymentMethod  = PaymentMethod(
-    #     input_csv_path  = "... theres no data for this dimension, completely invented :D",
-    #     output_csv_path = "docs/output_data_warehouse/payment_method_dim.csv",
-    #     starting_id     = 0 # last id from the database.
-    # )
-    # payment_method.extract()
-    # payment_method.transform()
-    # payment_method.load()
+    customers:Customer  = Customer(
+        input_csv_path  = "docs/output_stagging/customers.csv",
+        output_csv_path = "docs/output_data_warehouse/customers_dim.csv",
+        starting_id     = 0 # last id from the database.
+    )
+    customers.extract()
+    customers.transform()
+    customers.load()
+    
+    products:Product  = Product(
+        input_csv_path  = "docs/output_stagging/products.csv",
+        output_csv_path = "docs/output_data_warehouse/products_dim.csv",
+        starting_id     = 0 # last id from the database.
+    )
+    products.extract()
+    products.transform()
+    products.load()
+
+    # getting the time dimension data from the invoices date
+    time:Time = Time(
+        input_csv_path  = "docs/output_stagging/invoices.csv",
+        output_csv_path = "docs/output_data_warehouse/time_dim.csv",
+        starting_id     = 0 # last id from the database.
+    )
+    time.extract()
+    time.transform()
+    time.load()
+
+    payment_method:PaymentMethod  = PaymentMethod(
+        input_csv_path  = "... theres no data for this dimension, completely invented :D",
+        output_csv_path = "docs/output_data_warehouse/payment_method_dim.csv",
+        starting_id     = 0 # last id from the database.
+    )
+    payment_method.extract()
+    payment_method.transform()
+    payment_method.load()
 
     invoices:Invoice  = Invoice(
         input_csv_path  = "docs/output_stagging/invoices.csv",
