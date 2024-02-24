@@ -5,11 +5,13 @@ Technical test for Data Engineer position at Alegra.
 ### Documento de diseño del modelo relacional
 [Documentación de diseño del Modelo Dimensional](https://docs.google.com/document/d/1xN2t9K9dk5b721JqX1mwrwtG0MGDUqq2D4DK0ZH4rYI/edit?usp=sharing).
  
-### Scripts ETL:
- - `src/stagging_tables.py`: contiene la lógica de la capa stagging, mencionada en el documento.
+### Scripts Funcionales ETL:
+ - `src/stagging_tables.py`: Contiene la lógica de la primera etapa del proceso ETL. (creación de tablas stagging)
+ - `src/data_warehouse_tables.py`: Contiene la lógica de la segunda etapa del proceso ETL. (creación de las tablas finales del modelo dimensional)
+
  - muestras de csv: 
-    - `docs/output_stagging/*.csv`
-    - `docs/output_datawarehouse/*.csv`
+    - `docs/output_stagging/*.csv`: muestras de data del proceso de limpieza.
+    - `docs/output_datawarehouse/*.csv`: muestra de la data final de las dimensiones y hechos del DW. Output de los scripts anteriormente mencionados.
 
 ### Responder preguntas:
 -----
@@ -63,6 +65,7 @@ Technical test for Data Engineer position at Alegra.
 -----
 + ¿Cuáles son las tendencias de compra de los clientes más leales?
     ```sql
+    /* bigquery dialect */
     WITH
     top_10_customers AS 
     (
@@ -124,6 +127,7 @@ Technical test for Data Engineer position at Alegra.
 
 + ¿Cómo varían las ventas según las regiones geográficas durante el año?
     ```sql
+    /* bigquery dialect */
     WITH
     all_data AS
     (
