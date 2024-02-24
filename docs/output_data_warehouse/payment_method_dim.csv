@@ -1,0 +1,5 @@
+id,payment_method_id,method,description,ingestion_date,last_modified_date
+0,1111,Visa,a way to pay things... i dont know.,2024-02-23 20:28:34,2024-02-23 20:28:34
+1,2222,Cash,another way to pay things...,2024-02-23 20:28:34,2024-02-23 20:28:34
+2,3333,Bank Transfer,the 3rd way to pay.,2024-02-23 20:28:34,2024-02-23 20:28:34
+3,4444,Check,"the last one, finally.",2024-02-23 20:28:34,2024-02-23 20:28:34
